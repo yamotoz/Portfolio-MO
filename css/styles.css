@@ -201,3 +201,14 @@ body {
     height: auto !important;
     /* Override fixed height */
 }
+
+/* Specific fix for stack section labels on mobile to prevent covering icons */
+#stack .card-img-label {
+    padding: 0.75rem 1rem;
+    justify-content: center;
+}
+
+#stack .card-img-label span {
+    font-size: 0.85rem;
+    text-align: center;
+}
