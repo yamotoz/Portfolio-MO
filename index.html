@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Miguel Oliveira | Linktree</title>
+  <link rel="icon" type="image/jpeg" href="assets/img/fav.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ['Plus Jakarta Sans', 'Inter', 'system-ui', 'sans-serif'] }, colors: { brand: { gold: '#d6b25c', dark: '#0a0a0a' } } } } };</script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/three-bg.js"></script>
+</head>
+
+<body class="min-h-dvh text-white antialiased selection:bg-brand-gold/20 selection:text-white">
+  <div class="relative min-h-dvh overflow-hidden">
+    <div class="absolute inset-0">
+      <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black/80"></div>
+      <div
+        class="absolute -top-40 left-1/2 h-[480px] w-[480px] -translate-x-1/2 rounded-full bg-brand-gold/10 blur-[120px]">
+      </div>
+    </div>
+
+    <header class="relative mx-auto max-w-[420px] px-5 pt-8 pb-4">
+      <div class="flex justify-center">
+        <img src="assets/img/logominharemovebg.png" alt="Logo"
+          class="h-14 w-14 object-contain drop-shadow-xl animate-float" />
+      </div>
+    </header>
+
+    <main class="relative mx-auto max-w-[420px] px-5">
+      <div class="flex flex-col items-center text-center">
+        <div
+          class="relative hero-tilt overflow-hidden rounded-3xl ring-1 ring-white/15 shadow-2xl h-[460px] bg-gradient-to-b from-black via-black/70 to-black">
+          <img src="assets/img/img_linkrm.png" alt="Miguel Oliveira"
+            class="block mx-auto h-full max-w-[92%] object-contain drop-shadow-2xl" />
+        </div>
+
+        <h1 class="mt-6 text-4xl font-extrabold tracking-tight text-white">
+          <span class="shimmer">Miguel Oliveira</span>
+        </h1>
+        <p class="mt-1 text-sm font-medium text-zinc-300">Especialista em Fullstack &amp; Cyber Segurança</p>
+
+        <div class="mt-6 flex items-center gap-3">
+          <a href="https://instagram.com/miguel_yamoto" target="_blank" rel="noopener" class="icon-btn"
+            aria-label="Instagram">
+            <iconify-icon icon="mdi:instagram" width="22" height="22"></iconify-icon>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5585986374309" target="_blank" rel="noopener" class="icon-btn"
+            aria-label="WhatsApp">
+            <iconify-icon icon="mdi:whatsapp" width="22" height="22"></iconify-icon>
+          </a>
+          <a href="https://github.com/yamotoz" target="_blank" rel="noopener" class="icon-btn" aria-label="GitHub">
+            <iconify-icon icon="mdi:github" width="22" height="22"></iconify-icon>
+          </a>
+          <a href="https://www.linkedin.com/in/miguel-oliveira-5a9a6b264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank" rel="noopener" class="icon-btn" aria-label="LinkedIn">
+            <iconify-icon icon="mdi:linkedin" width="22" height="22"></iconify-icon>
+          </a>
+          <a href="https://tryhackme.com/p/Yamotoz" target="_blank" rel="noopener" class="icon-btn"
+            aria-label="TryHackMe">
+            <iconify-icon icon="simple-icons:tryhackme" width="22" height="22"></iconify-icon>
+          </a>
+        </div>
+
+
+
+        <div class="mt-7 w-full space-y-3">
+          <a href="./portfolio/index.html" class="card-img group">
+            <img src="assets/img/logominharemovebg.png" alt="Portfólio" />
+            <div class="card-img-label">
+              <span>Portfólio</span>
+              <iconify-icon icon="mdi:chevron-right" class="card-arrow"></iconify-icon>
+            </div>
+          </a>
+
+          <a href="./servicos/index.html" class="card-img group">
+            <img src="assets/img/serviços.jpg" alt="Serviços" />
+            <div class="card-img-label">
+              <span>Serviços</span>
+              <iconify-icon icon="mdi:chevron-right" class="card-arrow"></iconify-icon>
+            </div>
+          </a>
+
+          <a href="./portfolio/index.html#certificacoes" class="card-img group">
+            <img src="assets/img/formacao.png" alt="Formação" />
+            <span class="absolute inset-0 bg-black/40"></span>
+            <div class="card-img-label">
+              <span>Formação</span>
+              <iconify-icon icon="mdi:chevron-right" class="card-arrow"></iconify-icon>
+            </div>
+          </a>
+
+          <a href="./portfolio/index.html#projetos" class="card-img group">
+            <img src="assets/img/portfolio/eu na mesa.png" alt="Projetos" />
+            <span class="absolute inset-0 bg-black/40"></span>
+            <div class="card-img-label">
+              <span>Projetos</span>
+              <iconify-icon icon="mdi:chevron-right" class="card-arrow"></iconify-icon>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-8"></div>
+    </main>
+
+    <footer class="relative mx-auto max-w-[420px] px-5 py-10">
+      <div class="text-xs text-zinc-500 flex items-center gap-2">
+        <span>© 2025 Miguel Oliveira</span>
+        <span>•</span>
+        <span>CNPJ: 62.829.190/0001-01</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
